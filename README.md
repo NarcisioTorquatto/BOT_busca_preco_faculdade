@@ -62,4 +62,4 @@ A planilha `faculdades_educamais.xlsx` será gerada automaticamente na raiz do p
 ## 🧑‍💻 Autor
 
 Desenvolvido por **Narcisio Torquato**, desenvolvedor RPA Júnior.  
-Contatos: [LinkedIn](https://www.linkedin.com/in/seu-perfil) | [GitHub](https://github.com/seu-usuario)
+Contatos: [LinkedIn](www.linkedin.com/in/narcisiotorquato) | [GitHub](https://github.com/NarcisioTorquatto)
