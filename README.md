@@ -3,11 +3,7 @@
 
 Este projeto é um bot de automação desenvolvido em Python com Selenium que acessa o site **[Educa Mais Brasil](https://www.educamaisbrasil.com.br/)**, realiza uma busca por cursos, e extrai automaticamente as seguintes informações para cada faculdade listada:
 
-<<<<<<< HEAD
 - 🏫 Nome da faculdade (extraído do atributo ALT da logomarca)
-=======
-- 🏫 Nome da faculdade (extraído por OCR da logomarca)
->>>>>>> df1dcd4 (Update main.py)
 - 💰 Valor da mensalidade
 - 📘 Tipo do curso (Ex: Bacharelado, Licenciatura)
 - 🏫 Modalidade (Presencial, EAD, etc.)
@@ -21,10 +17,6 @@ As informações são salvas em uma planilha Excel (`.xlsx`), formatada automati
 
 - Python 🐍
 - Selenium 💻
-<<<<<<< HEAD
-=======
-- pytesseract + OCR 🔍
->>>>>>> df1dcd4 (Update main.py)
 - pandas 📊
 - openpyxl 📘
 
@@ -49,7 +41,6 @@ venv\Scripts\activate  # no Windows
 pip install -r requirements.txt
 ```
 
-<<<<<<< HEAD
 4. **Execute o bot**:
 ```bash
 python bot_faculdades.py
@@ -70,34 +61,5 @@ A planilha `faculdades_educamais.xlsx` será gerada automaticamente na raiz do p
 
 ## 🧑‍💻 Autor
 
-=======
-4. **Certifique-se de ter o Tesseract OCR instalado**:
-Baixe aqui: https://github.com/tesseract-ocr/tesseract  
-E adicione o caminho do executável no seu script, exemplo:
-```python
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-```
-
-5. **Execute o bot**:
-```bash
-python bot_faculdades.py
-```
-
-A planilha `faculdades_educamais.xlsx` será gerada automaticamente na raiz do projeto.
-
----
-
-## 📌 Observações
-
-- O bot foi projetado para lidar com a estrutura dinâmica do site.
-- As logomarcas das faculdades são processadas com OCR para identificar o nome da instituição, pois não são exibidas como texto.
-- O arquivo `.xlsx` é recriado a cada execução.
-- A automação ainda pode ser adaptada para navegar por múltiplas páginas e refinar os filtros de busca.
-
----
-
-## 🧑‍💻 Autor
-
->>>>>>> df1dcd4 (Update main.py)
 Desenvolvido por **Narcisio Torquato**, desenvolvedor RPA Júnior.  
 Contatos: [LinkedIn](https://www.linkedin.com/in/seu-perfil) | [GitHub](https://github.com/seu-usuario)
